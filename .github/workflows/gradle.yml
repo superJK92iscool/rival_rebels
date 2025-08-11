@@ -12,7 +12,7 @@ on:
     branches: [ "1.12.2" ]
   pull_request:
     branches: [ "1.12.2" ]
-
+  workflow_dispatch:
 permissions:
   contents: read
 
